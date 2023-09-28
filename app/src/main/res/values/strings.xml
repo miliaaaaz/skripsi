@@ -16,4 +16,6 @@
     <string name="days">365 Days</string>
     <string name="until_our_w">Until Our Wedding</string>
 
+<!--    String untuk button-->
+    <string name="back_button">Back</string>
 </resources>

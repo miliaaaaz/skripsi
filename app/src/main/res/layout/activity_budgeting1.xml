@@ -16,23 +16,46 @@
 
         <RelativeLayout
             android:id="@+id/frame_2364"
-            android:layout_width="229dp"
-            android:layout_height="32dp"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="21dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="67dp">
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="21dp">
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:onClick="back_button_click"
+                android:src="@drawable/back_button" />
 
             <TextView
                 android:id="@+id/budget"
-                android:layout_width="107dp"
-                android:layout_height="32dp"
-                android:text="@string/budget"
-                android:textAppearance="@style/textM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:gravity="center_horizontal|top"
-                />
+                android:text="@string/budget"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="@style/textL" />
 
         </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_centerHorizontal="true"
+
+            android:gravity="center_horizontal|bottom"
+            android:src="@drawable/budgeting" />
 
     </RelativeLayout>
 
