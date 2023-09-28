@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextPage">
+
+
+    <TextView
+        android:id="@+id/please_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:textSize="25sp"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="50dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="122dp"
+        android:text="What should we call you?"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="Bride;s Name"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/please_sign"
+        android:layout_marginTop="15dp"
+        android:textAppearance="@style/email"
+
+        />
+
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/rectangle_et"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Input your name"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="15dp"/>
+
+
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="Groom's Name"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/inputemail"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/email"
+
+        />
+
+
+    <EditText
+        android:id="@+id/inputpass"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/rectangle_et"
+        android:layout_below="@id/pass"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Input your partner's name"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:text="Add Collaborator"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputpass"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="9dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/love" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rectangle_btn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

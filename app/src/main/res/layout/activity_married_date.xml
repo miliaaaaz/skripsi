@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarriedDate">
+
+    <TextView
+        android:id="@+id/please_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:textSize="25sp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="122dp"
+        android:text="When are you getting married?"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text="@string/weddingdate"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/please_sign"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/weddingdate"
+
+        />
+
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/rectangle_et"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Input your wedding date"
+        android:inputType="date"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="413dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/bgg" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rectangle_btn">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</RelativeLayout>
