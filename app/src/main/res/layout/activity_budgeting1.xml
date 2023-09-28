@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".budgeting1">
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FAF0E4"
+        />
+
+    <RelativeLayout
+        android:id="@+id/frame_2364"
+        android:layout_width="229dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+
+    <TextView
+        android:id="@+id/budget"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:text="@string/budget"
+        android:textAppearance="@style/budget"
+        android:gravity="center_horizontal|top"
+        />
+        />
+
+
+
+</RelativeLayout>
