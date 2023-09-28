@@ -31,7 +31,7 @@
         android:layout_marginLeft="25dp"
         android:layout_below="@id/please_sign"
         android:layout_marginTop="10dp"
-        android:textAppearance="@style/email"
+        android:textAppearance="@style/textXXS"
 
         />
 
@@ -61,7 +61,7 @@
         android:layout_marginLeft="25dp"
         android:layout_below="@id/inputemail"
         android:layout_marginTop="10dp"
-        android:textAppearance="@style/email"
+        android:textAppearance="@style/textXXS"
 
         />
 
