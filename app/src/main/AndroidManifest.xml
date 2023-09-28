@@ -13,6 +13,11 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Homepage"
+            android:exported="false"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MarriedDate"
             android:exported="false"
             android:label="@string/title_activity_married_date"
