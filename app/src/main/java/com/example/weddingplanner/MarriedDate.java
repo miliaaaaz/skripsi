@@ -41,8 +41,8 @@ public class MarriedDate extends AppCompatActivity {
 //                        .setAnchorView(R.id.fab)
 //                        .setAction("Action", null).show();
 //            }
-        });
-    }
+//        });
+//    }
 
     @Override
     public boolean onSupportNavigateUp() {
