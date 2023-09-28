@@ -17,9 +17,9 @@ import androidx.navigation.ui.NavigationUI;
 import com.example.weddingplanner.databinding.ActivityMarriedDateBinding;
 
 public class MarriedDate extends AppCompatActivity {
-
-    private AppBarConfiguration appBarConfiguration;
-    private ActivityMarriedDateBinding binding;
+//
+//    private AppBarConfiguration appBarConfiguration;
+//    private ActivityMarriedDateBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,20 +27,20 @@ public class MarriedDate extends AppCompatActivity {
 
         binding = ActivityMarriedDateBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        setSupportActionBar(binding.toolbar);
-
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_married_date);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-
-        binding.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAnchorView(R.id.fab)
-                        .setAction("Action", null).show();
-            }
+//
+//        setSupportActionBar(binding.toolbar);
+//
+//        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_married_date);
+//        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
+//        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+//
+//        binding.fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAnchorView(R.id.fab)
+//                        .setAction("Action", null).show();
+//            }
         });
     }
 
