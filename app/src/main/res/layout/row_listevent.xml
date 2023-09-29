@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listeventRowModel" type="com.weddingplanner.app.modules.home.data.model.ListeventRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowevent"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtEvent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.19" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listeventRowModel.txtEvent}"
+            style="@style/txtPoppinsregular10_1" tools:text="@string/lbl_event"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtOne"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_weight="0.02" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listeventRowModel.txtOne}"
+            style="@style/txtPoppinsregular10_1" tools:text="@string/lbl"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtFittingWedding"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_weight="0.78" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listeventRowModel.txtFittingWedding}"
+            style="@style/txtPoppinsregular10_1" tools:text="@string/msg_fitting_wedding"/>
+    </LinearLayout>
+</layout>

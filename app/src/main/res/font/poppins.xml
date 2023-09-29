@@ -5,3 +5,8 @@
         app:fontProviderQuery="Poppins"
         app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
 </font-family>
+
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+<font app:font="@font/poppinsregular" app:fontWeight="400"/>
+<font app:font="@font/poppinsbold" app:fontWeight="700"/>
+</font-family>

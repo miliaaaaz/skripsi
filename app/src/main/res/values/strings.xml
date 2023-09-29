@@ -12,8 +12,44 @@
     <string name="weddingdate">Wedding Date</string>
     <string name="budget">Budget</string>
 
-    <string name="joshua_clay"> Joshua &amp; Clay </string>
-    <string name="days">365 Days</string>
-    <string name="until_our_w">Until Our Wedding</string>
-
+    <!--    String untuk button-->
+    <string name="back_button">Back</string>
+        <string name="loading">Loading…</string>
+        <string name="no_internet_connection">No internet connection!</string>
+        <string name="lbl_joshua_clay">Joshua &amp; Clay</string>
+        <string name="lbl_event">Event</string>
+        <string name="msg_fitting_wedding">Fitting Wedding Dress</string>
+        <string name="msg_your_current_bu">Your current budget</string>
+        <string name="msg_until_our_weddi">Until Our Wedding</string>
+        <string name="lbl_task_for_today">Task for today </string>
+        <string name="msg_fitting_wedding2">Fitting wedding dress</string>
+        <string name="lbl_10_000_000">$ 10.000.000</string>
+        <string name="lbl_365_days">365 Days</string>
+        <string name="lbl_26_juli_2023">26 Juli 2023</string>
+        <string name="lbl_millia_azmi">Millia Azmi</string>
+        <string name="lbl_cari_mua">Cari MUA</string>
+        <string name="lbl_millia_s_tailor">Millia\u2019s Tailor</string>
+        <string name="lbl_budget">Budget</string>
+        <string name="lbl_view_more"> View more &gt;&gt;</string>
+        <string name="lbl_view_all">View All</string>
+        <string name="lbl_1_000_000">$ 1.000.000</string>
+        <string name="lbl_to_do_list">To-do List</string>
+        <string name="lbl_16_00_wib">16:00 WIB</string>
+        <string name="lbl_9_000_000">$ 9.000.000</string>
+        <string name="msg_graciel_hernand">Graciel Hernando</string>
+        <string name="lbl_events">Events</string>
+        <string name="lbl_12">12</string>
+        <string name="lbl_days_left">Days left</string>
+        <string name="lbl_time">Time</string>
+        <string name="lbl_total_budget">Total Budget</string>
+        <string name="msg_remaining_budge">Remaining Budget</string>
+        <string name="lbl_upcoming_events">Upcoming Events</string>
+        <string name="msg_design_kartu_un">Design kartu undangan</string>
+        <string name="lbl_location">Location </string>
+        <string name="lbl_guest_list">Guest List</string>
+        <string name="lbl_baby_ayu_alicya">Baby Ayu Alicya</string>
+        <string name="lbl">:</string>
+        <string name="lbl_spent">Spent</string>
+        <string name="msg_cari_gedung_per">Cari gedung pernikahan</string>
+    
 </resources>
