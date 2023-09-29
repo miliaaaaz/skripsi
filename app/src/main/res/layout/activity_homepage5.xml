@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Homepage5">
+
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        style="@style/groupStylewhite_A700">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/linearColumnvector"
+                        style="@style/groupStylewhite_A700"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="start"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:id="@+id/frameStackjoshuaclay"
+                            style="@style/groupStyleorange_50"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_241pxv"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="@dimen/_1pxh">
+
+                            <LinearLayout
+                                android:id="@+id/linearColumnjoshuaclay"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top|center"
+                                android:layout_marginStart="@dimen/_28pxh"
+                                android:layout_marginTop="@dimen/_17pxv"
+                                android:layout_marginEnd="@dimen/_28pxh"
+                                android:layout_marginBottom="@dimen/_17pxv"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txtJoshuaClay"
+                                    style="@style/txtPoppinsregular25"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_48pxh"
+                                    android:layout_marginEnd="@dimen/_48pxh"
+                                    android:ellipsize="end"
+                                    android:gravity="center_horizontal"
+                                    android:singleLine="true"
+                                    android:text="@string/lbl_joshua_clay" />
+
+                                <TextView
+                                    android:id="@+id/txtDuration"
+                                    style="@style/txtSendFlowersregular55"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_48pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_marginEnd="@dimen/_48pxh"
+                                    android:ellipsize="end"
+                                    android:gravity="center_horizontal"
+                                    android:singleLine="true"
+                                    android:text="@string/lbl_365_days" />
+
+                                <View
+                                    android:id="@+id/lineLineSeventeen"
+                                    android:layout_width="@dimen/_241pxh"
+                                    android:layout_height="@dimen/_1pxv"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginStart="@dimen/_48pxh"
+                                    android:layout_marginTop="@dimen/_2pxv"
+                                    android:layout_marginEnd="@dimen/_47pxh"
+                                    android:background="@color/black_900" />
+
+                                <TextView
+                                    android:id="@+id/txtUntilOurWeddi"
+                                    style="@style/txtPoppinsregular20"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_48pxh"
+                                    android:layout_marginTop="@dimen/_4pxv"
+                                    android:layout_marginEnd="@dimen/_48pxh"
+                                    android:ellipsize="end"
+                                    android:gravity="center_horizontal"
+                                    android:singleLine="true"
+                                    android:text="@string/msg_until_our_weddi" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/imageVector"
+                                android:layout_width="@dimen/_18pxh"
+                                android:layout_height="@dimen/_4pxh"
+                                android:layout_gravity="top|start"
+                                android:layout_marginStart="@dimen/_21pxh"
+                                android:layout_marginTop="@dimen/_33pxv"
+                                android:layout_marginEnd="@dimen/_21pxh"
+                                android:layout_marginBottom="@dimen/_33pxv"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_vector"
+                                tools:ignore="ContentDescription"
+                                tools:src="@drawable/img_vector" />
+                        </FrameLayout>
+
+                        <HorizontalScrollView
+                            android:id="@+id/horizontalScrollHorizontalscrollframefortysix"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_11pxh"
+                            android:layout_marginTop="@dimen/_15pxv"
+                            android:fillViewport="true"
+                            android:gravity="center_horizontal"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:id="@+id/linearRowframefortysix"
+                                style="@style/groupStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/btViewAll"
+                                    style="@style/txtSolidRounded_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:paddingStart="24dp"
+                                    android:paddingTop="8dp"
+                                    android:paddingEnd="24dp"
+                                    android:paddingBottom="8dp"
+                                    android:singleLine="true"
+                                    android:text="@string/lbl_view_all"
+                                    android:textSize="16dp"
+                                    tools:text="@string/lbl_view_all" />
+
+                                <TextView
+                                    android:id="@+id/btBudget"
+                                    style="@style/txtSolidRounded_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:ellipsize="end"
+                                    android:paddingStart="24dp"
+                                    android:paddingTop="8dp"
+                                    android:paddingEnd="24dp"
+                                    android:paddingBottom="8dp"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:textSize="16dp"
+                                    android:text="@string/lbl_budget" />
+
+                                <TextView
+                                    android:id="@+id/btGuest"
+                                    style="@style/txtSolidRounded_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:layout_weight="0"
+                                    android:ellipsize="end"
+                                    android:paddingStart="24dp"
+                                    android:paddingTop="8dp"
+                                    android:paddingEnd="24dp"
+                                    android:paddingBottom="8dp"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:textSize="16dp"
+                                    android:text="@string/lbl_guest_list" />
+
+                                <TextView
+                                    android:id="@+id/btEvent"
+                                    style="@style/txtSolidRounded_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:layout_weight="0"
+                                    android:ellipsize="end"
+                                    android:paddingStart="24dp"
+                                    android:paddingTop="8dp"
+                                    android:paddingEnd="24dp"
+                                    android:paddingBottom="8dp"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:textSize="16dp"
+                                    android:text="@string/lbl_events" />
+
+                                <TextView
+                                    android:id="@+id/btTodo"
+                                    style="@style/txtSolidRounded"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="12dp"
+                                    android:layout_weight="0"
+                                    android:ellipsize="end"
+                                    android:paddingStart="24dp"
+                                    android:paddingTop="8dp"
+                                    android:paddingEnd="24dp"
+                                    android:paddingBottom="8dp"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:text="@string/lbl_to_do_list" />
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                        <FrameLayout
+                            android:id="@+id/frameStackyourcurrentbu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15pxv"
+                            android:layout_marginBottom="@dimen/_92pxv">
+
+                            <LinearLayout
+                                android:id="@+id/linearColumnyourcurrentbu"
+                                style="@style/groupStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_22pxh"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/linearColumnlanguageFour"
+                                    style="@style/groupStyleorange_50cornerRadius"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_31pxv"
+                                    android:paddingBottom="20dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:gravity="start"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/linearRowlanguageFour"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:paddingLeft="@dimen/_10pxh"
+                                        android:paddingRight="@dimen/_10pxh">
+
+                                        <TextView
+                                            android:id="@+id/txtLanguageFour"
+                                            style="@style/txtPoppinsbold15"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="@dimen/_3pxv"
+                                            android:layout_weight="0.59"
+                                            android:layout_marginTop="16dp"
+                                            android:layout_marginLeft="15dp"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:text="@string/lbl_task_for_today" />
+
+                                        <TextView
+                                            android:id="@+id/txtLanguageFive"
+                                            style="@style/txtPoppinsregular10"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/_20pxh"
+                                            android:layout_weight="0.41"
+                                            android:textAlignment="textEnd"
+                                            android:layout_marginTop="16dp"
+                                            android:layout_marginLeft="15dp"
+                                            android:ellipsize="end"
+                                            android:singleLine="true"
+                                            android:textSize="16dp"
+                                            android:text="@string/lbl_view_more" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_6pxv"
+                                        android:layout_marginEnd="@dimen/_10pxh"
+                                        android:gravity="start"
+                                        android:orientation="horizontal">
+
+                                        <CheckBox
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/_18pxh"
+                                            android:layout_marginTop="@dimen/_3pxv"
+                                            android:layout_marginBottom="@dimen/_2pxv"
+                                            android:layout_marginLeft="10dp"
+                                            />
+
+                                        <TextView
+                                            style="@style/txtPoppinsregular15"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/_15pxh"
+                                            android:ellipsize="end"
+                                            android:paddingTop="2dp"
+                                            android:singleLine="true"
+                                            android:text="@string/msg_fitting_wedding2" />
+
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_6pxv"
+                                        android:layout_marginEnd="@dimen/_10pxh"
+                                        android:gravity="start"
+                                        android:orientation="horizontal">
+
+                                        <CheckBox
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/_18pxh"
+                                            android:layout_marginTop="@dimen/_3pxv"
+                                            android:layout_marginBottom="@dimen/_2pxv"
+                                            android:layout_marginLeft="10dp"
+                                            />
+
+                                        <TextView
+                                            style="@style/txtPoppinsregular15"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/_15pxh"
+                                            android:ellipsize="end"
+                                            android:paddingTop="2dp"
+                                            android:singleLine="true"
+                                            android:text="@string/msg_cari_gedung_per" />
+
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_6pxv"
+                                        android:layout_marginEnd="@dimen/_10pxh"
+                                        android:gravity="start"
+                                        android:orientation="horizontal">
+
+                                        <CheckBox
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/_18pxh"
+                                            android:layout_marginTop="@dimen/_3pxv"
+                                            android:layout_marginBottom="@dimen/_2pxv"
+                                            android:layout_marginLeft="10dp"
+                                            />
+
+                                        <TextView
+                                            style="@style/txtPoppinsregular15"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/_15pxh"
+                                            android:ellipsize="end"
+                                            android:paddingTop="2dp"
+                                            android:singleLine="true"
+                                            android:text="@string/msg_design_kartu_un" />
+
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_6pxv"
+                                        android:layout_marginEnd="@dimen/_10pxh"
+                                        android:gravity="start"
+                                        android:orientation="horizontal">
+
+                                        <CheckBox
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/_18pxh"
+                                            android:layout_marginTop="@dimen/_3pxv"
+                                            android:layout_marginBottom="@dimen/_2pxv"
+                                            android:layout_marginLeft="10dp"
+                                            />
+
+                                        <TextView
+                                            style="@style/txtPoppinsregular15"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/_15pxh"
+                                            android:ellipsize="end"
+                                            android:paddingTop="2dp"
+                                            android:singleLine="true"
+                                            android:text="@string/lbl_cari_mua" />
+
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+
+
+            <FrameLayout
+                android:id="@+id/frameBottomNavbar"
+                style="@style/groupStyleorange_51"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_84pxv"
+                android:layout_alignParentBottom="true">
+
+                <ImageView
+                    android:id="@+id/imageFrameOne"
+                    android:layout_width="@dimen/_324pxh"
+                    android:layout_height="@dimen/_65pxh"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_frame1"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_frame1" />
+            </FrameLayout>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
