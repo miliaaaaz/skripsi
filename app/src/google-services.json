@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277420821116",
+    "project_id": "ceritacintakitabudget",
+    "storage_bucket": "ceritacintakitabudget.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277420821116:android:f0703984f90ab49f2a97f9",
+        "android_client_info": {
+          "package_name": "com.example.weddingplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzX324-wPFHIfc2UQrWvhXF94cZ6YLWII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

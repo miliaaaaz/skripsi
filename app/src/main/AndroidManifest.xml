@@ -27,9 +27,9 @@
         <activity
             android:name=".Homepage2"
             android:exported="false" />
-        <activity
-            android:name=".bann1"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".bann1"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".budgeting1"
             android:exported="false" />
