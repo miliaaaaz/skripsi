@@ -11,6 +11,7 @@
     <string name="previous">Previous</string>
     <string name="weddingdate">Wedding Date</string>
     <string name="budget">Budget</string>
+    <string name="guest">Guest</string>
 
     <!--    String untuk button-->
     <string name="back_button">Back</string>
@@ -51,5 +52,8 @@
     <string name="lbl">:</string>
     <string name="lbl_spent">Spent</string>
     <string name="msg_cari_gedung_per">Cari gedung pernikahan</string>
+    <string name="invitation_"> Invitation Card </string>
+    <string name="upload_your"> Upload Your Invitation Card </string>
+
 
 </resources>

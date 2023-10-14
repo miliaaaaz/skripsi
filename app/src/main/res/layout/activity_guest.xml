@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guest">
+
+    <LinearLayout
+        android:id="@+id/linearColumnvector"
+        style="@style/groupStylewhite_A700"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rectangle_2"
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#FAF0E4">
+            <RelativeLayout
+                android:id="@+id/frame_2364"
+                android:layout_width="355dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="21dp">
+                <ImageView
+                    android:id="@+id/backButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:onClick="back_button_click"
+                    android:src="@drawable/back_button" />
+                <TextView
+                    android:id="@+id/budget"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/guest"
+                    android:fontFamily="@font/poppins"
+                    android:textAppearance="@style/textL" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|bottom"
+                android:src="@drawable/guestlogo" />
+        </RelativeLayout>
+<!--            <FrameLayout-->
+<!--            android:id="@+id/frameStackjoshuaclay"-->
+<!--            style="@style/groupStyleorange_50"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_241pxv"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginStart="@dimen/_1pxh">-->
+    </LinearLayout>
+
+
+
+</RelativeLayout>
