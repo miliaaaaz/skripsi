@@ -38,6 +38,10 @@
     <string name="lbl_16_00_wib">16:00 WIB</string>
     <string name="lbl_9_000_000">$ 9.000.000</string>
     <string name="msg_graciel_hernand">Graciel Hernando</string>
+    <string name="msg_bruno">Bruno Mars</string>
+    <string name="msg_janedoe">Jane Doe</string>
+    <string name="msg_eds">Ed Sheeran</string>
+    <string name="msg_lee">Lee Taeyong</string>
     <string name="lbl_events">Events</string>
     <string name="lbl_12">12</string>
     <string name="lbl_days_left">Days left</string>
@@ -54,6 +58,7 @@
     <string name="msg_cari_gedung_per">Cari gedung pernikahan</string>
     <string name="invitation_"> Invitation Card </string>
     <string name="upload_your"> Upload Your Invitation Card </string>
+    <string name="add_new"> Add new </string>
 
 
 </resources>

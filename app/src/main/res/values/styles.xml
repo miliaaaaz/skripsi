@@ -91,6 +91,10 @@
         <item name="android:textColor">#000000</item>
     </style>
 
+    <style name="add_new">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#E9AAAA</item>
+    </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
