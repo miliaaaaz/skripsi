@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Guest">
+    tools:context=".Guest2">
 
     <LinearLayout
         android:id="@+id/linearColumnvector"
@@ -53,13 +53,13 @@
                 android:src="@drawable/guestlogo" />
 
         </RelativeLayout>
-<!--            <FrameLayout-->
-<!--            android:id="@+id/frameStackjoshuaclay"-->
-<!--            style="@style/groupStyleorange_50"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="@dimen/_241pxv"-->
-<!--            android:layout_gravity="center_horizontal"-->
-<!--            android:layout_marginStart="@dimen/_1pxh">-->
+        <!--            <FrameLayout-->
+        <!--            android:id="@+id/frameStackjoshuaclay"-->
+        <!--            style="@style/groupStyleorange_50"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="@dimen/_241pxv"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:layout_marginStart="@dimen/_1pxh">-->
 
 
         <FrameLayout
@@ -255,7 +255,6 @@
                         android:textSize="16dp" />
 
                 </LinearLayout>
-
 
             </LinearLayout>
 
