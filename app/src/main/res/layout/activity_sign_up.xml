@@ -37,7 +37,7 @@
 
 
     <EditText
-        android:id="@+id/inputemail"
+        android:id="@+id/useremail"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:background="@drawable/rectangle_et"
@@ -59,7 +59,7 @@
         android:layout_height="15dp"
         android:text="@string/pass"
         android:layout_marginLeft="25dp"
-        android:layout_below="@id/inputemail"
+        android:layout_below="@id/useremail"
         android:layout_marginTop="10dp"
         android:textAppearance="@style/textXXS"
 
@@ -67,7 +67,7 @@
 
 
     <EditText
-        android:id="@+id/inputpass"
+        android:id="@+id/userpass"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:background="@drawable/rectangle_et"
@@ -87,7 +87,7 @@
         android:layout_width="140dp"
         android:layout_height="1dp"
         android:background="@drawable/line_19"
-        android:layout_below="@id/inputpass"
+        android:layout_below="@id/userpass"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="25dp"
         />
@@ -99,7 +99,7 @@
         android:text="or"
         android:textSize="18sp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/inputpass"
+        android:layout_below="@id/userpass"
         android:fontFamily="@font/poppins"
         android:layout_marginTop="9dp"/>
 
@@ -109,7 +109,7 @@
         android:layout_width="140dp"
         android:layout_height="1dp"
         android:background="@drawable/line_19"
-        android:layout_below="@id/inputpass"
+        android:layout_below="@id/userpass"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="25dp"
         android:layout_marginTop="25dp"

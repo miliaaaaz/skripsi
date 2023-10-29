@@ -62,4 +62,8 @@
             android:resource="@array/preloaded_fonts" />
     </application>
 
+<!--    firebase-->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
