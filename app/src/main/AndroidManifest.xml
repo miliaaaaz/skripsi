@@ -13,6 +13,16 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Guest3"
+            android:exported="false"
+            android:label="@string/title_activity_guest3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Guest2"
+            android:exported="false"
+            android:label="@string/title_activity_guest2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Guest"
             android:exported="false" />
         <activity
@@ -26,10 +36,9 @@
             android:exported="false" />
         <activity
             android:name=".Homepage2"
-            android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".bann1"-->
-<!--            android:exported="false" />-->
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".bann1" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".budgeting1"
             android:exported="false" />
