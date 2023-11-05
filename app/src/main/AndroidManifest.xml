@@ -51,10 +51,10 @@
             android:name=".NextPage"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".SignInPage"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
+            android:name=".SignUpPage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

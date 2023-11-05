@@ -5,9 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -22,7 +20,7 @@ import java.util.Map;
 
 //INI PAGE SIGN UP SEBENERNYA
 
-public class SignIn extends AppCompatActivity {
+public class SignUpPage extends AppCompatActivity {
     //INI TEST ASYEL BLABLABLALA
 
 
@@ -37,7 +35,7 @@ public class SignIn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_in);
+        setContentView(R.layout.activity_sign_up_page);
         useremail = findViewById(R.id.useremail);
         userpass = findViewById(R.id.userpass);
 //        signup = findViewById(R.id.signup);
