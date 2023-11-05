@@ -38,9 +38,9 @@ public class SignIn extends AppCompatActivity {
         useremail = findViewById(R.id.useremail);
         userpass = findViewById(R.id.userpass);
 //        signup = findViewById(R.id.signup);
-        progressDialog = new ProgressDialog(EditorActivity.this);
-        progressDialog.setTitle("Loading");
-        progressDialog.setMessage("Saving Data...");
+//        progressDialog = new ProgressDialog(EditorActivity.this);
+//        progressDialog.setTitle("Loading");
+//        progressDialog.setMessage("Saving Data...");
 
         signup.setOnClickListener(save->{
             if (useremail.getText().length()>0 && userpass.getText().length()>0){
@@ -64,7 +64,7 @@ public class SignIn extends AppCompatActivity {
                     @Override
                     public void onSuccess(DocumentReference documentReference) {
                         Toast.makeText(getApplicationContext(), "Saving Data Succeed", Toast.LENGTH_SHORT).show();
-                        progressDialog.dismiss();
+//                        progressDialog.dismiss();
                         finish();
                     }
                 })
@@ -72,7 +72,7 @@ public class SignIn extends AppCompatActivity {
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         Toast.makeText(getApplicationContext(), e.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
-                        progressDialog.dismiss();
+//                        progressDialog.dismiss();
                     }
                 });
         }
