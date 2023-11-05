@@ -4,7 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn">
+    tools:context=".SignUpPage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back2"
+        android:layout_alignParentBottom="true"/>
+
 
 
 
@@ -137,36 +144,38 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sign up with Google"
-                android:fontFamily="@font/poppins"
-                android:textColor="#000"
+                android:layout_centerInParent="true"
                 android:drawableStart="@drawable/devicon_google"
                 android:drawablePadding="20dp"
-                android:layout_centerInParent="true"/>
+                android:fontFamily="@font/poppins"
+                android:text="Sign up with Google"
+                android:textColor="#000" />
         </RelativeLayout>
 
 
 
     </androidx.cardview.widget.CardView>
 
-
-    <TextView
-        android:id="@+id/have_an_acc"
-        android:layout_width="wrap_content"
-        android:layout_height="23dp"
-        android:text="Have an account? Sign in"
-        android:layout_below="@id/google"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:gravity="top"
-        />
-
-
-    <ImageView
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/back2"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Have an account? Sign in"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp"/>
+
+
+    </RelativeLayout>
+
+
 
 
 
@@ -175,15 +184,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/rectangle_btn">
+        android:layout_marginBottom="30dp">
 
-
-        <TextView
+        <Button
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:fontFamily="@font/poppins"
             android:text="Sign Up"
             android:textAlignment="center"
             android:textColor="#fff"
