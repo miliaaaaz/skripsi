@@ -76,11 +76,6 @@
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
 
-
-
-
-
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -132,11 +127,6 @@
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
 
-
-
-
-
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -186,11 +176,6 @@
                         android:src="@drawable/img_4"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
-
-
-
-
-
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -308,11 +293,6 @@
                         android:src="@drawable/img_6"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins" />
-
-
-
-
-
 
                     <TextView
                         android:layout_width="wrap_content"
