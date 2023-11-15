@@ -5,7 +5,9 @@
     <color name="thema1">#E9AAAA</color>
     <color name="thema2">#E9AAAA</color>
     <color name="thema3">#E9AAAA</color>
+    <color name="thema4">#009E22</color>
     <color name="back">#FAF0E4</color>
+    <color name="tema1">#FAF0E4</color>
         <color name="purple_200">#FFBB86FC</color>
         <color name="purple_500">#FF6200EE</color>
         <color name="purple_700">#FF3700B3</color>
