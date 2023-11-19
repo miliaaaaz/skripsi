@@ -50,20 +50,33 @@
         <activity
             android:name=".NextPage"
             android:exported="false" />
+
+
         <activity
             android:name=".SignInPage"
-            android:exported="false" />
+            android:exported="true"
+            android:label="login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
         <activity
             android:name=".SignUpPage"
-            android:exported="false" />
+            android:exported="true"
+            android:label="register"/>
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
 
         <meta-data

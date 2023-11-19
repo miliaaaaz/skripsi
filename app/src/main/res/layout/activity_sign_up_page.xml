@@ -81,7 +81,7 @@
         android:layout_below="@id/pass"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="Input your psssword"
+        android:hint="Input your password"
         android:inputType="textEmailAddress"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -164,12 +164,13 @@
         android:layout_marginBottom="220dp">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/ToSignInPage"
             android:layout_width="360dp"
             android:layout_height="wrap_content"
             android:text="Have an account? Sign in"
             android:textAlignment="center"
-            android:textColor="#fff"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/cardview_shadow_end_color"
             android:textSize="15sp"/>
 
 
@@ -187,7 +188,7 @@
         android:layout_marginBottom="30dp">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign Up"

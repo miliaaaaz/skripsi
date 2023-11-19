@@ -48,9 +48,9 @@
             jH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
     </string-array>
 
-    <font-family xmlns:app="http://schemas.android.com/apk/res-auto">
-        <font app:font="@font/poppinsregular" app:fontWeight="400"/>
-        <font app:font="@font/poppinsbold" app:fontWeight="700"/>
-    </font-family>
+<!--    <font-family xmlns:app="http://schemas.android.com/apk/res-auto">-->
+<!--        <font app:font="@font/poppinsregular" app:fontWeight="400"/>-->
+<!--        <font app:font="@font/poppinsbold" app:fontWeight="700"/>-->
+<!--    </font-family>-->
 
 </resources>
