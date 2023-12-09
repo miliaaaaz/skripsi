@@ -72,7 +72,7 @@
                     android:layout_marginTop="5dp">
 
                     <ImageView
-                        android:id="@+id/date1"
+                        android:id="@+id/dateTop1"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginTop="50dp"
@@ -84,7 +84,7 @@
 
 
                     <TextView
-                        android:id="@+id/text1"
+                        android:id="@+id/textHeading1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Gedung Pernikahan"
@@ -97,13 +97,13 @@
                         android:fontFamily="@font/poppins"/>
 
                     <TextView
-                        android:id="@+id/text2"
+                        android:id="@+id/textHotel2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hotel Pullman"
                         android:textSize="10dp"
                         android:textStyle="bold"
-                        android:layout_below="@id/text1"
+                        android:layout_below="@id/textHeading1"
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="15dp"
                         android:textAlignment="center"
@@ -114,7 +114,7 @@
                         android:id="@+id/lin1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/text2">
+                        android:layout_below="@id/textHotel2">
 
 
                         <CheckBox
@@ -252,7 +252,7 @@
 
 
                         <TextView
-                            android:id="@+id/text3"
+                            android:id="@+id/textMid3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Second Instalment"
@@ -266,7 +266,7 @@
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
                         <TextView
-                            android:id="@+id/text4"
+                            android:id="@+id/textMid4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Duo Date"
@@ -274,14 +274,14 @@
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
                             android:layout_toEndOf="@id/cb2"
-                            android:layout_below="@id/text3"
+                            android:layout_below="@id/textMid3"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text5"
+                            android:id="@+id/textMid5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="01 Maret 2021"
@@ -290,14 +290,14 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text3"
+                            android:layout_below="@id/textMid3"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text6"
+                            android:id="@+id/textMid6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Time"
@@ -305,14 +305,14 @@
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
                             android:layout_toEndOf="@id/cb2"
-                            android:layout_below="@id/text4"
+                            android:layout_below="@id/textMid4"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text7"
+                            android:id="@+id/textMid7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="23:59"
@@ -321,14 +321,14 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text4"
+                            android:layout_below="@id/textMid4"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text8"
+                            android:id="@+id/textMid8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Total Paid"
@@ -336,14 +336,14 @@
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
                             android:layout_toEndOf="@id/cb2"
-                            android:layout_below="@id/text6"
+                            android:layout_below="@id/textMid6"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text9"
+                            android:id="@+id/textMid9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Rp 1.500.000"
@@ -352,7 +352,7 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text6"
+                            android:layout_below="@id/textMid6"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
@@ -382,20 +382,20 @@
 
 
                         <CheckBox
-                            android:id="@+id/cb2"
+                            android:id="@+id/cbLast2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             tools:ignore="DuplicateIds" />
 
 
                         <TextView
-                            android:id="@+id/text3"
+                            android:id="@+id/textLast3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Third Instalment"
                             android:textSize="12dp"
                             android:textStyle="bold"
-                            android:layout_toEndOf="@id/cb2"
+                            android:layout_toEndOf="@id/cbLast2"
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
@@ -403,22 +403,22 @@
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
                         <TextView
-                            android:id="@+id/text4"
+                            android:id="@+id/textLast4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Duo Date"
                             android:textSize="12dp"
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
-                            android:layout_toEndOf="@id/cb2"
-                            android:layout_below="@id/text3"
+                            android:layout_toEndOf="@id/cbLast2"
+                            android:layout_below="@id/textLast3"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text5"
+                            android:id="@+id/textLast5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="30 Maret 2021"
@@ -427,29 +427,29 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text3"
+                            android:layout_below="@id/textLast3"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text6"
+                            android:id="@+id/textLast6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Time"
                             android:textSize="12dp"
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
-                            android:layout_toEndOf="@id/cb2"
-                            android:layout_below="@id/text4"
+                            android:layout_toEndOf="@id/cbLast2"
+                            android:layout_below="@id/textLast4"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text7"
+                            android:id="@+id/textLast7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="23:59"
@@ -458,29 +458,29 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text4"
+                            android:layout_below="@id/textLast4"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text8"
+                            android:id="@+id/textLast8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Total Paid"
                             android:textSize="12dp"
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
-                            android:layout_toEndOf="@id/cb2"
-                            android:layout_below="@id/text6"
+                            android:layout_toEndOf="@id/cbLast2"
+                            android:layout_below="@id/textLast6"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
 
                         <TextView
-                            android:id="@+id/text9"
+                            android:id="@+id/textLast9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Rp 1.500.000"
@@ -489,7 +489,7 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text6"
+                            android:layout_below="@id/textLast6"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"
@@ -567,7 +567,7 @@
 
 
                     <RelativeLayout
-                        android:id="@+id/lin1"
+                        android:id="@+id/botLin1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/text2"
@@ -575,20 +575,20 @@
 
 
                         <CheckBox
-                            android:id="@+id/cb1"
+                            android:id="@+id/botCb1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             tools:ignore="DuplicateIds" />
 
 
                         <TextView
-                            android:id="@+id/text3"
+                            android:id="@+id/textBot3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Payment"
                             android:textSize="12dp"
                             android:textStyle="bold"
-                            android:layout_toEndOf="@id/cb1"
+                            android:layout_toEndOf="@id/botCb1"
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
@@ -596,21 +596,21 @@
                             android:fontFamily="@font/poppins"
                             tools:ignore="DuplicateIds" />
                         <TextView
-                            android:id="@+id/text4"
+                            android:id="@+id/textBot4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Duo Date"
                             android:textSize="12dp"
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
-                            android:layout_toEndOf="@id/cb1"
-                            android:layout_below="@id/text3"
+                            android:layout_toEndOf="@id/botCb1"
+                            android:layout_below="@id/textBot3"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
 
                         <TextView
-                            android:id="@+id/text5"
+                            android:id="@+id/textBot5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="30 Februari 2021"
@@ -619,27 +619,27 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text3"
+                            android:layout_below="@id/textBot3"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
 
                         <TextView
-                            android:id="@+id/text6"
+                            android:id="@+id/textBot6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Time"
                             android:textSize="12dp"
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
-                            android:layout_toEndOf="@id/cb1"
-                            android:layout_below="@id/text4"
+                            android:layout_toEndOf="@id/botCb1"
+                            android:layout_below="@id/textBot4"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
 
                         <TextView
-                            android:id="@+id/text7"
+                            android:id="@+id/textBot7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="23:59"
@@ -648,27 +648,27 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text4"
+                            android:layout_below="@id/textBot4"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
 
                         <TextView
-                            android:id="@+id/text8"
+                            android:id="@+id/textBot8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Total Paid"
                             android:textSize="12dp"
                             android:textStyle="bold"
                             android:textColor="#A39D9D"
-                            android:layout_toEndOf="@id/cb1"
-                            android:layout_below="@id/text6"
+                            android:layout_toEndOf="@id/botCb1"
+                            android:layout_below="@id/textBot6"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
 
                         <TextView
-                            android:id="@+id/text9"
+                            android:id="@+id/textBot9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Rp 3.000.000"
@@ -677,7 +677,7 @@
                             android:textColor="#A39D9D"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            android:layout_below="@id/text6"
+                            android:layout_below="@id/textBot6"
                             android:layout_marginLeft="5dp"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>

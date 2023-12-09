@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="listeventRowModel" type="com.weddingplanner.app.modules.home.data.model.ListeventRowModel"/>
+        <variable name="listeventRowModel" type="com.example.weddingplanner.models.ListeventRowModel"/>
     </data>
     <LinearLayout android:id="@+id/linearRowevent"
         android:layout_height="wrap_content"

@@ -17,8 +17,8 @@
         <path
             android:pathData="M8 0H315C319.418 0 323 3.58172 323 8V92C323 96.4183 319.418 100 315 100H8C3.58172 100 0 96.4183 0 92V8C0 3.58172 3.58172 0 8 0Z"
             android:strokeWidth="4"
-            android:strokeCap="square"
-            android:strokeJoin="round"
+            android:strokeLineCap="square"
+            android:strokeLineJoin="round"
             android:strokeColor="#E9AAAA"
             />
     </group>

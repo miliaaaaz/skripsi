@@ -37,7 +37,7 @@
 
 
     <EditText
-        android:id="@+id/inputemail"
+        android:id="@+id/bridesName"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:background="@drawable/rectangle_et"
@@ -59,7 +59,7 @@
         android:layout_height="15dp"
         android:text="Groom's Name"
         android:layout_marginLeft="25dp"
-        android:layout_below="@id/inputemail"
+        android:layout_below="@id/bridesName"
         android:layout_marginTop="10dp"
         android:textAppearance="@style/textXXS"
 
@@ -67,7 +67,7 @@
 
 
     <EditText
-        android:id="@+id/inputpass"
+        android:id="@+id/groomsName"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:background="@drawable/rectangle_et"
@@ -81,16 +81,16 @@
         android:fontFamily="@font/poppins"
         android:layout_marginTop="15dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="7dp"
-        android:text="Add Collaborator"
-        android:textSize="18sp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/inputpass"
-        android:fontFamily="@font/poppins"
-        android:layout_marginTop="9dp"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingTop="7dp"-->
+<!--        android:text="Add Collaborator"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/groomsName"-->
+<!--        android:fontFamily="@font/poppins"-->
+<!--        android:layout_marginTop="9dp"/>-->
 
 
     <ImageView
@@ -114,11 +114,13 @@
             android:layout_centerInParent="true"
             android:fontFamily="@font/poppins"
             android:text="Next"
+            android:id="@+id/next_btn"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="20sp" />
 
     </RelativeLayout>
+
 
 
 

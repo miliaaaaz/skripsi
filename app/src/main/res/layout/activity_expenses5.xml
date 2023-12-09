@@ -398,7 +398,7 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
-                        android:id="@+id/date4"
+                        android:id="@+id/dateSecond4"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginTop="10dp"
@@ -422,7 +422,7 @@
                         android:textStyle="bold"
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="15dp"
-                        android:layout_toEndOf="@id/date4"
+                        android:layout_toEndOf="@id/dateSecond4"
                         android:textColor="#000"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
@@ -435,8 +435,8 @@
                         android:layout_marginLeft="15dp"
                         android:textAlignment="textStart"
                         android:layout_marginTop="-10dp"
-                        android:layout_toEndOf="@id/date4"
-                        android:layout_below="@id/date4"
+                        android:layout_toEndOf="@id/dateSecond4"
+                        android:layout_below="@id/dateSecond4"
                         android:textColor="#000"
                         android:fontFamily="@font/poppins"/>
 
@@ -452,7 +452,7 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
-                        android:id="@+id/date5"
+                        android:id="@+id/dateSecond5"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginTop="10dp"
@@ -476,7 +476,7 @@
                         android:textStyle="bold"
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="15dp"
-                        android:layout_toEndOf="@id/date5"
+                        android:layout_toEndOf="@id/dateSecond5"
                         android:textColor="#000"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
@@ -489,8 +489,8 @@
                         android:layout_marginLeft="15dp"
                         android:textAlignment="textStart"
                         android:layout_marginTop="-10dp"
-                        android:layout_toEndOf="@id/date5"
-                        android:layout_below="@id/date5"
+                        android:layout_toEndOf="@id/dateSecond5"
+                        android:layout_below="@id/dateSecond5"
                         android:textColor="#000"
                         android:fontFamily="@font/poppins"/>
 
@@ -506,7 +506,7 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
-                        android:id="@+id/date6"
+                        android:id="@+id/dateSecond6"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginTop="10dp"
@@ -526,7 +526,7 @@
                         android:textStyle="bold"
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="15dp"
-                        android:layout_toEndOf="@id/date6"
+                        android:layout_toEndOf="@id/dateSecond6"
                         android:textColor="#000"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
@@ -539,8 +539,8 @@
                         android:layout_marginLeft="15dp"
                         android:textAlignment="textStart"
                         android:layout_marginTop="-10dp"
-                        android:layout_toEndOf="@id/date6"
-                        android:layout_below="@id/date6"
+                        android:layout_toEndOf="@id/dateSecond6"
+                        android:layout_below="@id/dateSecond6"
                         android:textColor="#000"
                         android:fontFamily="@font/poppins"/>
 
@@ -572,7 +572,7 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
-                        android:id="@+id/date4"
+                        android:id="@+id/dateThird4"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginTop="10dp"
@@ -596,7 +596,7 @@
                         android:textStyle="bold"
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="15dp"
-                        android:layout_toEndOf="@id/date4"
+                        android:layout_toEndOf="@id/dateThird4"
                         android:textColor="#000"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
@@ -609,8 +609,8 @@
                         android:layout_marginLeft="15dp"
                         android:textAlignment="textStart"
                         android:layout_marginTop="-10dp"
-                        android:layout_toEndOf="@id/date4"
-                        android:layout_below="@id/date4"
+                        android:layout_toEndOf="@id/dateThird4"
+                        android:layout_below="@id/dateThird4"
                         android:textColor="#000"
                         android:fontFamily="@font/poppins"/>
 
@@ -626,7 +626,7 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
-                        android:id="@+id/date5"
+                        android:id="@+id/dateThird5"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginTop="10dp"
@@ -650,7 +650,7 @@
                         android:textStyle="bold"
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="15dp"
-                        android:layout_toEndOf="@id/date5"
+                        android:layout_toEndOf="@id/dateThird5"
                         android:textColor="#000"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
@@ -663,8 +663,8 @@
                         android:layout_marginLeft="15dp"
                         android:textAlignment="textStart"
                         android:layout_marginTop="-10dp"
-                        android:layout_toEndOf="@id/date5"
-                        android:layout_below="@id/date5"
+                        android:layout_toEndOf="@id/dateThird5"
+                        android:layout_below="@id/dateThird5"
                         android:textColor="#000"
                         android:fontFamily="@font/poppins"/>
 
@@ -680,7 +680,7 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
-                        android:id="@+id/date6"
+                        android:id="@+id/dateThird6"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginTop="10dp"
@@ -700,7 +700,7 @@
                         android:textStyle="bold"
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="15dp"
-                        android:layout_toEndOf="@id/date6"
+                        android:layout_toEndOf="@id/dateThird6"
                         android:textColor="#000"
                         android:textAlignment="center"
                         android:fontFamily="@font/poppins"/>
@@ -713,8 +713,8 @@
                         android:layout_marginLeft="15dp"
                         android:textAlignment="textStart"
                         android:layout_marginTop="-10dp"
-                        android:layout_toEndOf="@id/date6"
-                        android:layout_below="@id/date6"
+                        android:layout_toEndOf="@id/dateThird6"
+                        android:layout_below="@id/dateThird6"
                         android:textColor="#000"
                         android:fontFamily="@font/poppins"/>
 

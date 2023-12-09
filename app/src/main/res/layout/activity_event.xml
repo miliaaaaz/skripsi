@@ -58,15 +58,27 @@
 
             </RelativeLayout>
 
-            <com.ak.KalendarView
+            <CalendarView
                 android:id="@+id/calenderView"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="10dp"
-                app:calendarBackground="@color/tema1"
-                android:layout_below="@id/ban1"/>
+                android:background="@color/tema1"
+                android:layout_below="@id/ban1"
+                />
+
+<!--            <com.ak.KalendarView-->
+<!--                android:id="@+id/calenderView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                app:calendarBackground="@color/tema1"-->
+<!--                android:layout_below="@id/ban1"-->
+<!--                />-->
 
 
             <RelativeLayout
@@ -373,7 +385,6 @@
             </RelativeLayout>
 
 
-
         </RelativeLayout>
 
     </ScrollView>
@@ -396,6 +407,8 @@
 
 
     </RelativeLayout>
+
+
 
 
 </RelativeLayout>
