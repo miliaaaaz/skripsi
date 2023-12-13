@@ -81,18 +81,6 @@
         android:fontFamily="@font/poppins"
         android:layout_marginTop="15dp"/>
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:paddingTop="7dp"-->
-<!--        android:text="Add Collaborator"-->
-<!--        android:textSize="18sp"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_below="@id/groomsName"-->
-<!--        android:fontFamily="@font/poppins"-->
-<!--        android:layout_marginTop="9dp"/>-->
-
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -100,25 +88,23 @@
         android:layout_marginBottom="0dp"
         android:src="@drawable/love" />
 
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/rectangle_btn">
+        android:layout_marginBottom="30dp">
 
-        <TextView
+        <Button
+            android:id="@+id/next_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:fontFamily="@font/poppins"
             android:text="Next"
-            android:id="@+id/next_btn"
+            android:fontFamily="@font/poppins"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="20sp" />
-
     </RelativeLayout>
 
 

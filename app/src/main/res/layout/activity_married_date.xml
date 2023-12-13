@@ -22,9 +22,9 @@
         />
 
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/Married"
         android:layout_width="wrap_content"
-        android:layout_height="10dp"
+        android:layout_height="15dp"
         android:text="@string/weddingdate"
         android:layout_marginLeft="25dp"
         android:layout_below="@id/please_sign"
@@ -35,11 +35,11 @@
 
 
     <EditText
-        android:id="@+id/inputemail"
+        android:id="@+id/marriedDate"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:background="@drawable/rectangle_et"
-        android:layout_below="@id/email"
+        android:layout_below="@id/Married"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:hint="Input your wedding date"
@@ -55,24 +55,22 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp"
         android:src="@drawable/bgg" />
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/rectangle_btn">
+        android:layout_marginBottom="30dp">
 
-
-        <TextView
+        <Button
+            android:id="@+id/submitmarriedDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:fontFamily="@font/poppins"
             android:text="Next"
+            android:fontFamily="@font/poppins"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="20sp" />
-
     </RelativeLayout>
 </RelativeLayout>

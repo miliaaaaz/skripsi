@@ -73,6 +73,7 @@ public class SignInPage extends AppCompatActivity {
     }
 
     private void reload(){
+
         startActivity(new Intent(getApplicationContext(), NextPage.class));
     }
 
