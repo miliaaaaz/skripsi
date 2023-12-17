@@ -167,93 +167,24 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/linearRowellipsefortytwo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_18pxv"
-                        android:layout_marginEnd="@dimen/_10pxh"
-                        android:gravity="start"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageEllipseFortyTwo"
-                            android:layout_width="@dimen/_45pxh"
-                            android:layout_height="@dimen/_45pxh"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/img_ellipse42" />
-
-                        <TextView
-                            android:id="@+id/txtMilliaAzmi"
-                            style="@style/txtPoppinsregular15"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_12pxh"
-                            android:layout_marginTop="@dimen/_10pxv"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_weight="0.63"
-                            android:ellipsize="end"
-                            android:singleLine="true"
-                            android:textSize="16dp"
-                            android:text="@string/lbl_millia_azmi" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/linearRowellipsefortytwoOne"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_5pxv"
-                        android:layout_marginEnd="@dimen/_10pxh"
-                        android:gravity="start"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageEllipseFortyTwoOne"
-
-                            android:layout_width="@dimen/_45pxh"
-                            android:layout_height="@dimen/_45pxh"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/img_ellipse42" />
-
-                        <TextView
-                            android:id="@+id/txtBabyAyuAlicya"
-                            style="@style/txtPoppinsregular15"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_12pxh"
-                            android:layout_marginTop="@dimen/_12pxv"
-                            android:layout_marginBottom="@dimen/_9pxv"
-                            android:layout_weight="0.73"
-                            android:ellipsize="end"
-                            android:singleLine="true"
-                            android:textSize="16dp"
-                            android:text="@string/lbl_baby_ayu_alicya" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/linearRowellipsefortytwoTwo"
+                        android:id="@+id/guestlist"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_5pxv"
-                        android:layout_marginEnd="@dimen/_10pxh"
-                        android:gravity="start"
-                        android:orientation="horizontal">
-
+                        android:layout_marginEnd="@dimen/_3pxh"
+                        android:orientation="vertical"
+                        android:gravity="start">
+                        
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/guest_data"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                        
+                        
                     </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/txtGracielHernand"
-                        style="@style/txtPoppinsregular15"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_12pxh"
-                        android:layout_marginTop="@dimen/_10pxv"
-                        android:layout_marginBottom="@dimen/_11pxv"
-                        android:layout_weight="0.75"
-                        android:ellipsize="end"
-                        android:singleLine="true"
-                        android:text="@string/msg_graciel_hernand"
-                        android:textSize="16dp" />
+                    
 
+                    
                 </LinearLayout>
 
 
