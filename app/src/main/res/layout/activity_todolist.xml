@@ -57,6 +57,24 @@
 
             </RelativeLayout>
 
+            <LinearLayout
+                android:id="@+id/category_todolist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/ban1"
+                android:orientation="vertical"
+                android:gravity="start">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/category_todo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
 
 
 
