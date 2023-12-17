@@ -63,7 +63,7 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="10dp"
                             android:textColor="#000"
-                            android:src="@drawable/img_12"
+                            android:src="@drawable/user"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
                         <TextView
@@ -109,7 +109,7 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="10dp"
                             android:textColor="#000"
-                            android:src="@drawable/img_12"
+                            android:src="@drawable/phone"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
                         <TextView
@@ -155,7 +155,7 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginLeft="10dp"
                             android:textColor="#000"
-                            android:src="@drawable/img_12"
+                            android:src="@drawable/mail"
                             android:textAlignment="center"
                             android:fontFamily="@font/poppins"/>
                         <TextView

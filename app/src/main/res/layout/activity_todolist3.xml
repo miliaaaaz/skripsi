@@ -6,5 +6,310 @@
     android:layout_height="match_parent"
     tools:context=".Todolist3">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+
+        <RelativeLayout
+            android:id="@+id/ban1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/tema1">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/back_button" />
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Gedung Pernikahan" />
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@id/ban1"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_below="@id/rel1"
+                    android:background="@drawable/rectangle2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp">
+                    <CheckBox
+                        android:id="@+id/cb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/date2"-->
+<!--                        android:layout_width="24dp"-->
+<!--                        android:layout_height="24dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:src="@drawable/img_12"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:fontFamily="@font/poppins"/>-->
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@id/date2"
+                        android:fontFamily="@font/poppins"
+                        android:text="Mencari lokasi pernikahan"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:hint="memilih yang pas dengan tanggal pernikahan"
+                        android:layout_marginLeft="50dp"
+                        android:textAlignment="textStart"
+                        android:layout_marginTop="25dp"
+                        android:background="@color/tema1"
+                        android:layout_toEndOf="@id/date2"
+                        android:layout_below="@id/date2"
+                        android:textColor="#000"
+                        android:fontFamily="@font/poppins"/>
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_below="@id/rel1"
+                    android:background="@drawable/rectangle2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/date2"-->
+<!--                        android:layout_width="24dp"-->
+<!--                        android:layout_height="24dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:src="@drawable/img_12"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:fontFamily="@font/poppins"/>-->
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Booking gedung pernikahan"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_toEndOf="@id/date2"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/poppins"/>
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_below="@id/rel1"
+                    android:background="@drawable/rectangle2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/date6"-->
+<!--                        android:layout_width="24dp"-->
+<!--                        android:layout_height="24dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:src="@drawable/img_15"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:fontFamily="@font/poppins"-->
+<!--                        tools:ignore="DuplicateIds" />-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cari penginapan sekitar venue"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_toEndOf="@id/date6"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/poppins"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_below="@id/rel1"
+                    android:background="@drawable/rectangle2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/date2"-->
+<!--                        android:layout_width="24dp"-->
+<!--                        android:layout_height="24dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:src="@drawable/img_12"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:fontFamily="@font/poppins"/>-->
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@id/date2"
+                        android:fontFamily="@font/poppins"
+                        android:text="Booking transportasi untuk ke venue"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="15dp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:hint="memastikan penginapan dan jumlah orang yang ikut"
+                        android:layout_marginLeft="50dp"
+                        android:textAlignment="textStart"
+                        android:layout_marginTop="25dp"
+                        android:background="@color/tema1"
+                        android:layout_toEndOf="@id/date2"
+                        android:layout_below="@id/date2"
+                        android:textColor="#000"
+                        android:fontFamily="@font/poppins"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                    <TextView
+                        android:id="@+id/add"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Add new"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="30dp"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/thema2"
+                        android:textStyle="bold"
+                        android:drawablePadding="29dp"
+                        android:fontFamily="@font/poppins"/>
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/img_7"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="-90dp"
+                        android:layout_toStartOf="@id/add"
+                        android:layout_gravity="center_vertical"/>
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tema1"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img_10"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
 </RelativeLayout>
